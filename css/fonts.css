@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Hcui';
+    src: url('../fonts/Hcui.eot');
+    src: url('../fonts/Hcui.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Hcui.woff') format('woff'),
+         url('../fonts/Hcui.ttf') format('truetype'),
+         url('../fonts/Hcui.svg#Hcui') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='hcui-']:before{
+  display: inline-block;
+   font-family: 'Hcui';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.hcui-atm-locator:before{content:'\0041';}
+.hcui-award-cup:before{content:'\0042';}
+.hcui-award-ribbon:before{content:'\0043';}
+.hcui-calculator:before{content:'\0044';}
+.hcui-camera:before{content:'\0045';}
+.hcui-car:before{content:'\0046';}
+.hcui-car2:before{content:'\0047';}
+.hcui-car3:before{content:'\0048';}
+.hcui-cash:before{content:'\0049';}
+.hcui-certificate:before{content:'\004a';}
+.hcui-chat:before{content:'\004b';}
+.hcui-cheque:before{content:'\004c';}
+.hcui-computer:before{content:'\004d';}
+.hcui-coop:before{content:'\004e';}
+.hcui-creditcard:before{content:'\004f';}
+.hcui-EHL:before{content:'\0050';}
+.hcui-folder:before{content:'\0051';}
+.hcui-homecu-new:before{content:'\0052';}
+.hcui-homecu:before{content:'\0053';}
+.hcui-house:before{content:'\0054';}
+.hcui-house2:before{content:'\0055';}
+.hcui-info:before{content:'\0056';}
+.hcui-key:before{content:'\0057';}
+.hcui-laptop:before{content:'\0058';}
+.hcui-lock-open:before{content:'\0059';}
+.hcui-lock:before{content:'\005a';}
+.hcui-marker1:before{content:'\0061';}
+.hcui-marker2:before{content:'\0062';}
+.hcui-marker3:before{content:'\0063';}
+.hcui-moneybag:before{content:'\0064';}
+.hcui-ncua:before{content:'\0065';}
+.hcui-people:before{content:'\0066';}
+.hcui-phone-hand:before{content:'\0067';}
+.hcui-phone:before{content:'\0068';}
+.hcui-phone2:before{content:'\0069';}
+.hcui-piggy-bank:before{content:'\006a';}
+.hcui-savings:before{content:'\006b';}
+.hcui-smartphone:before{content:'\006c';}
+.hcui-star:before{content:'\006d';}
+.hcui-star2:before{content:'\006e';}
+.hcui-trash:before{content:'\006f';}
+.hcui-user:before{content:'\0070';}
+.hcui-visacard:before{content:'\0071';}
+.hcui-wallet-plus:before{content:'\0072';}
+.hcui-wallet2:before{content:'\0073';}
